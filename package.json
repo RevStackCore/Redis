@@ -1,0 +1,19 @@
+{
+  "name": "RevStackCore.Redis",
+  "version": "1.0.0",
+  "description": "StackExchange.Redis implementation of the RevStackCore repository pattern",
+    "main": "RevStackCore.Redis.sln",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RevStackCore/Redis.git"
+  },
+  "author": "S. Francis",
+  "license": "MIT",
+  "bugs": {
+        "url": "https://github.com/RevStackCore/Redis/issues"
+  },
+    "homepage": "https://github.com/RevStackCore/Redis"
+}
