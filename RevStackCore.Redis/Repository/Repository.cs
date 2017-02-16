@@ -26,7 +26,7 @@ namespace RevStackCore.Redis
 		/// Get this instance.
 		/// </summary>
 		/// <returns>The get.</returns>
-		public IEnumerable<TEntity> Get()
+		public virtual IEnumerable<TEntity> Get()
 		{
 			return _typedClient.GetAll();
 		}
@@ -36,7 +36,7 @@ namespace RevStackCore.Redis
 		/// </summary>
 		/// <returns>The by identifier.</returns>
 		/// <param name="id">Identifier.</param>
-		public TEntity GetById(TKey id)
+		public virtual TEntity GetById(TKey id)
 		{
 			return _typedClient.GetById(id);
 		}
@@ -46,7 +46,7 @@ namespace RevStackCore.Redis
 		/// </summary>
 		/// <returns>The find.</returns>
 		/// <param name="predicate">Predicate.</param>
-		public IQueryable<TEntity> Find(Expression<Func<TEntity, bool>> predicate)
+		public virtual IQueryable<TEntity> Find(Expression<Func<TEntity, bool>> predicate)
 		{
 			return _typedClient.GetAll().AsQueryable().Where(predicate);
 		}
@@ -56,7 +56,7 @@ namespace RevStackCore.Redis
 		/// </summary>
 		/// <returns>The add.</returns>
 		/// <param name="entity">Entity.</param>
-		public TEntity Add(TEntity entity)
+		public virtual TEntity Add(TEntity entity)
 		{
 			return _typedClient.Insert(entity);
 		}
@@ -66,7 +66,7 @@ namespace RevStackCore.Redis
 		/// </summary>
 		/// <returns>The update.</returns>
 		/// <param name="entity">Entity.</param>
-		public TEntity Update(TEntity entity)
+		public virtual TEntity Update(TEntity entity)
 		{
 			return _typedClient.Store(entity);
 		}
@@ -76,7 +76,7 @@ namespace RevStackCore.Redis
 		/// </summary>
 		/// <returns>The delete.</returns>
 		/// <param name="entity">Entity.</param>
-		public void Delete(TEntity entity)
+		public virtual void Delete(TEntity entity)
 		{
 			_typedClient.Delete(entity);
 		}
