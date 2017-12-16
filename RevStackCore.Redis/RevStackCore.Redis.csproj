@@ -1,13 +1,13 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard1.5</TargetFramework>
+    <TargetFramework>netstandard1.6</TargetFramework>
 	<PackageId>RevStackCore.Redis</PackageId>
-    <PackageVersion>1.0.2</PackageVersion>
+    <PackageVersion>1.1.0</PackageVersion>
     <Authors>S. Francis</Authors>
     <Description>StackExchange.Redis implementation of the RevStackCore repository pattern</Description>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
-    <PackageReleaseNotes>Net Standard 1.5 release</PackageReleaseNotes>
+    <PackageReleaseNotes>Net Standard 1.6 release</PackageReleaseNotes>
     <Copyright>Copyright 2017</Copyright>
     <PackageTags>RevStackCore Repository Redis</PackageTags>	
   </PropertyGroup>
@@ -18,6 +18,6 @@
   <ItemGroup>
     <PackageReference Include="System.Linq.Queryable" Version="4.3.0">
     </PackageReference>
-    <PackageReference Include="RevStackCore.Redis.Client" Version="1.0.1" />
+    <PackageReference Include="RevStackCore.Redis.Client" Version="1.1.0" />
   </ItemGroup>
 </Project>
