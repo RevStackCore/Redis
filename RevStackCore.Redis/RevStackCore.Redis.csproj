@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>netstandard1.6</TargetFramework>
 	<PackageId>RevStackCore.Redis</PackageId>
-    <PackageVersion>1.1.0</PackageVersion>
+    <PackageVersion>1.1.1</PackageVersion>
     <Authors>S. Francis</Authors>
     <Description>StackExchange.Redis implementation of the RevStackCore repository pattern</Description>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
@@ -18,6 +18,6 @@
   <ItemGroup>
     <PackageReference Include="System.Linq.Queryable" Version="4.3.0">
     </PackageReference>
-    <PackageReference Include="RevStackCore.Redis.Client" Version="1.1.0" />
+    <PackageReference Include="RevStackCore.Redis.Client" Version="1.1.1" />
   </ItemGroup>
 </Project>
