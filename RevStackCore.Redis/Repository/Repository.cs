@@ -28,7 +28,7 @@ namespace RevStackCore.Redis
 		/// <returns>The get.</returns>
 		public virtual IEnumerable<TEntity> Get()
 		{
-			return _typedClient.GetAll();
+            return _typedClient.GetAll();
 		}
 
 		/// <summary>
