@@ -3,11 +3,14 @@
   <PropertyGroup>
     <TargetFramework>netstandard1.6</TargetFramework>
 	<PackageId>RevStackCore.Redis</PackageId>
-    <PackageVersion>1.2.1</PackageVersion>
+    <PackageVersion>1.2.2</PackageVersion>
     <Authors>S. Francis</Authors>
     <Description>StackExchange.Redis implementation of the RevStackCore repository pattern</Description>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <PackageReleaseNotes>Net Standard 1.6 release</PackageReleaseNotes>
+    <PackageProjectUrl>https://github.com/RevStackCore/Redis.git</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/RevStackCore/Redis/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageIconUrl>https://s3.amazonaws.com/revstack/icons/revstackcore-64x64.png</PackageIconUrl>
     <Copyright>Copyright 2017</Copyright>
     <PackageTags>RevStackCore Repository Redis</PackageTags>	
   </PropertyGroup>
