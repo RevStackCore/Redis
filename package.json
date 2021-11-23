@@ -1,6 +1,6 @@
 {
   "name": "RevStackCore.Redis",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "StackExchange.Redis implementation of the RevStackCore repository pattern",
     "main": "RevStackCore.Redis.sln",
   "scripts": {
