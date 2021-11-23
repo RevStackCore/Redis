@@ -13,6 +13,7 @@
     <PackageIconUrl>https://s3.amazonaws.com/revstack/icons/revstackcore-64x64.png</PackageIconUrl>
     <Copyright>Copyright 2017</Copyright>
     <PackageTags>RevStackCore Repository Redis</PackageTags>	
+    <ReleaseVersion>1.2.4</ReleaseVersion>
   </PropertyGroup>
 
   <ItemGroup>
