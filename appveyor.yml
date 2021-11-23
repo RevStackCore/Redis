@@ -18,7 +18,6 @@ branches:
 
 deploy:
   provider: NuGet
-  server: https://ci.appveyor.com/nuget/tachyon1337-mrxqao6t197e
   api_key:
     secure: JhXouXJJXYiQ9aSRg5EHLD+0JVi539qjs7BM2BjGXncFbcR6zo7FQ3X8vBe8m/Sd
   skip_symbols: false
